@@ -21,13 +21,10 @@ To get started with Dynamic Mic, follow these steps:
    git clone https://github.com/parulpathakk/dynamic-form.git
    cd dynamic-form
 Install Dependencies
-
-```bash
 npm install
 
 Run the Development Server
 
-```bash
 npm run dev
 This will start the React development server, and you can view the app at http://localhost:3000.
 
