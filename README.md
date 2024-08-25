@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Dynamic Mic** is a dynamic form builder application built with React and Tailwind CSS. It renders form fields dynamically based on a JSON configuration, allowing for flexible and customizable forms. The project showcases advanced form validation, state management, and custom validation logic, all styled with Tailwind CSS.
+**Dynamic Form** is a dynamic form builder application built with React and Tailwind CSS. It renders form fields dynamically based on a JSON configuration, allowing for flexible and customizable forms. The project showcases advanced form validation, state management, and custom validation logic, all styled with Tailwind CSS.
 
 ## Features
 
