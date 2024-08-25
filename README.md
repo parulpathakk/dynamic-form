@@ -1,8 +1,8 @@
-# Dynamic Mic
+# Dynamic Form
 
 ## Overview
 
-**Liquide** is a dynamic form builder application built with React and Tailwind CSS. It renders form fields dynamically based on a JSON configuration, allowing for flexible and customizable forms. The project showcases advanced form validation, state management, and custom validation logic, all styled with Tailwind CSS.
+**Dynamic Mic** is a dynamic form builder application built with React and Tailwind CSS. It renders form fields dynamically based on a JSON configuration, allowing for flexible and customizable forms. The project showcases advanced form validation, state management, and custom validation logic, all styled with Tailwind CSS.
 
 ## Features
 
@@ -14,23 +14,25 @@
 
 ## Getting Started
 
-To get started with Liquide, follow these steps:
+To get started with Dynamic Mic, follow these steps:
 
 1. **Clone the Repository**
-
    ```bash
    git clone https://github.com/parulpathakk/dynamic-form.git
    cd dynamic-form
+Install Dependencies
 
-2. Install Dependencies
+bash
+Copy code
+npm install
+Run the Development Server
 
-    npm install
-
-3. Run the Development Server
-
-    npm run dev
+bash
+Copy code
+npm run dev
+This will start the React development server, and you can view the app at http://localhost:3000.
 
 Acknowledgements
 React
 Tailwind CSS
-GitHub Pages 
+GitHub Pages
