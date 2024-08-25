@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply mb-4 bg-gradient-to-t from-[#ec9938] to-[#facb4b] text-black py-[3cqw] px-[4cqw] md:py-[0.85cqw] md:px-[1.5cqw] font-poppins md:text-[1.1cqw] font-[500] rounded-full hover:transition-all duration-700;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn:hover {
+  background: linear-gradient(to top, #ec9938, #ec9938);
 }
+
+.btn-small {
+  @apply mb-4 bg-gradient-to-t from-[#ec9938] to-[#facb4b] text-black py-[2.5cqw] px-[3.5cqw] md:py-[0.75cqw] md:px-[1.5cqw] font-poppins md:text-[1cqw] font-[500] rounded-full hover:transition-all duration-700;
+}
+
+.btn-disabled {
+  background: #0d0c14; 
+  @apply bg-[#0d0c14] text-gray-400 cursor-not-allowed; /* Dark background and faded text */
+  @apply border-gray-600; /* Optional: Faded border */
+}
+
+.btn-small:hover {
+  background: linear-gradient(to top, #ec9938, #ec9938);
+}
+
+.label-text {
+  @apply block text-[3.5cqw] md:text-[0.85cqw] text-white font-poppins md:tracking-[0.035cqw];
+}
+
+.input-field {
+  @apply p-[2cqw] md:p-[0.5cqw] bg-gray-200 mt-[1.5cqw] md:mt-[0.3cqw] w-full rounded-[1cqw] md:rounded-[0.2cqw] text-[3.2cqw] md:text-[0.85cqw] outline-none focus:outline-[#facb4b] focus:outline-[0.05cqw];
+}
+
+.text-medium {
+  @apply block text-[3.8cqw] md:text-[0.9cqw] text-white font-poppins md:tracking-[0.03cqw];
+}
+.text-small {
+  @apply block text-[3cqw] md:text-[0.8cqw] text-white font-poppins md:tracking-[0.03cqw];
+}
+.text-big {
+  @apply block  text-[6cqw] md:text-[2.1cqw] text-white font-medium font-poppins md:tracking-[0.03cqw];
+}
+
+.text-medium-1 {
+  @apply block text-[5cqw] md:text-[1.5cqw] font-medium text-white font-poppins md:tracking-[0.03cqw];
+}
+
+.error-text {
+  @apply text-[3cqw] md:text-[0.75cqw] text-red-700 font-poppins md:tracking-[0.03cqw] hover:text-red-500;
+}
+
+
+/* custom-toast.css */
+
+.Toastify__toast--success {
+  background: linear-gradient(to top, #ec9938, #facb4b);
+  color: #ffffff; 
+  border-radius: 12px; 
+  padding: 2px;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(to top, #e57373, #f44336);
+  color: #ffffff; 
+  border-radius: 8px; 
+}
+
+.Toastify__toast-body {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 12px; 
+}
+
